@@ -57,12 +57,13 @@ export default function Layout({ children }) {
   };
 
   const navLinks = [
-    { id: "about", label: "About" },
-    { id: "experience", label: "Experience" },
-    { id: "projects", label: "Projects" },
-    { id: "skills", label: "Skills" },
-    { id: "education", label: "Education" },
-    { id: "contact", label: "Contact" }
+    { id: "about", label: "Sobre mi" },
+    { id: "experience", label: "Experiencia" },
+    { id: "projects", label: "Proyectos" },
+    { id: "skills", label: "Habiidades" },
+    { id: "education", label: "Educacion" },
+    { id: "certifications", label: "Certificaciones" },
+    { id: "contact", label: "Contacto" }
   ];
 
   return (
