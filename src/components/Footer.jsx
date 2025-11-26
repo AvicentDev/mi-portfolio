@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   const scrollToSection = (sectionId) => {
@@ -23,22 +23,22 @@ export default function Footer() {
             <h4 className="mb-4 text-base font-semibold md:text-lg">Enlaces</h4>
             <ul className="space-y-2">
               <li>
-                <button onClick={() => scrollToSection('about')} className="text-sm text-muted-foreground transition-colors hover:text-cyan-400">
+                <button onClick={() => scrollToSection('about')} className="text-sm transition-colors text-muted-foreground hover:text-cyan-400">
                   About
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('experience')} className="text-sm text-muted-foreground transition-colors hover:text-cyan-400">
+                <button onClick={() => scrollToSection('experience')} className="text-sm transition-colors text-muted-foreground hover:text-cyan-400">
                   Experience
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('projects')} className="text-sm text-muted-foreground transition-colors hover:text-cyan-400">
+                <button onClick={() => scrollToSection('projects')} className="text-sm transition-colors text-muted-foreground hover:text-cyan-400">
                   Projects
                 </button>
               </li>
               <li>
-                <button onClick={() => scrollToSection('skills')} className="text-sm text-muted-foreground transition-colors hover:text-cyan-400">
+                <button onClick={() => scrollToSection('skills')} className="text-sm transition-colors text-muted-foreground hover:text-cyan-400">
                   Skills
                 </button>
               </li>
@@ -56,15 +56,6 @@ export default function Footer() {
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="https://github.com/alvarovicent"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400"
-                aria-label="GitHub"
-              >
-                <Github className="w-5 h-5" />
               </a>
               <a
                 href="mailto:avicent.dev@gmail.com"
