@@ -32,7 +32,37 @@ export default function CertificationsSection() {
       color: "from-blue-500/20 to-blue-600/20",
       borderColor: "border-blue-500/30",
       iconColor: "text-blue-500"
+    },
+    {
+      id: 3,
+      title: "Clean Code",
+      issuer: "CodelyTV Pro",
+      issuedBy: "Issued By: CodelyTV Pro",
+      period: "1 diciembre 2025",
+      hours: "—", // No aparece en el certificado
+      instructor: "Rafa Gómez Casas, Javier Ferrer González, Álvaro Vicent",
+      certificateUrl: "", // Si tienes una URL, puedes añadirla aquí
+      pdfPath: "/certificates/clean-code.pdf",
+      color: "from-purple-500/20 to-purple-600/20",
+      borderColor: "border-purple-500/30",
+      iconColor: "text-purple-500"
+    },
+    {
+      id: 4,
+      title: "Principios SOLID aplicados",
+      issuer: "CodelyTV Pro",
+      issuedBy: "Issued By: CodelyTV Pro",
+      period: "3 diciembre 2025",
+      hours: "—", // No aparece en el certificado
+      instructor: "Rafa Gómez Casas, Javier Ferrer González, Álvaro Vicent",
+      certificateUrl: "", // Si tienes una URL pública, puedes añadirla aquí
+      pdfPath: "/certificates/principios-solid-aplicados.pdf",
+      color: "from-amber-500/20 to-amber-600/20",
+      borderColor: "border-amber-500/30",
+      iconColor: "text-amber-500"
     }
+
+
   ];
 
   const openCertificate = (cert) => {
