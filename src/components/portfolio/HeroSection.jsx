@@ -1,4 +1,4 @@
-import { Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function HeroSection() {
