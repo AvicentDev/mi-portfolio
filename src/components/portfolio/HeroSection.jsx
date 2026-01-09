@@ -92,23 +92,32 @@ export default function HeroSection() {
 
           {/* Redes sociales debajo de la imagen */}
           <div className="flex justify-center gap-4 mt-6 md:mt-8">
-            <a
-              href="mailto:avicent.dev@gmail.com"
-              className="p-3 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400 hover:-translate-y-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Mail className="w-5 h-5" />
-            </a>
-            <a
-              href="https://linkedin.com/in/alvaro-vicent"
-              className="p-3 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400 hover:-translate-y-1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
-          </div>
+              <a
+                href="mailto:avicent.dev@gmail.com"
+                className="p-3 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400 hover:-translate-y-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Mail className="w-5 h-5" />
+              </a>
+              <a
+                href="https://linkedin.com/in/alvaro-vicent"
+                className="p-3 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400 hover:-translate-y-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://github.com/AvicentDev"
+                className="p-3 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400 hover:-translate-y-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="w-5 h-5" />
+              </a>
+            </div>
+
         </div>
       </div>
 

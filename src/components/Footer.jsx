@@ -47,24 +47,34 @@ export default function Footer() {
 
           <div>
             <h4 className="mb-4 text-base font-semibold md:text-lg">Conecta</h4>
-            <div className="flex gap-3 md:gap-4">
-              <a
-                href="https://linkedin.com/in/alvaro-vicent"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400"
-                aria-label="LinkedIn"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="mailto:avicent.dev@gmail.com"
-                className="p-2 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400"
-                aria-label="Email"
-              >
-                <Mail className="w-5 h-5" />
-              </a>
-            </div>
+       <div className="flex gap-3 md:gap-4">
+          <a
+            href="https://linkedin.com/in/alvaro-vicent"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400"
+            aria-label="LinkedIn"
+          >
+            <Linkedin className="w-5 h-5" />
+          </a>
+          <a
+            href="mailto:avicent.dev@gmail.com"
+            className="p-2 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400"
+            aria-label="Email"
+          >
+            <Mail className="w-5 h-5" />
+          </a>
+          <a
+            href="https://github.com/AvicentDev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 transition-all border rounded-lg bg-card hover:bg-cyan-400/20 border-border hover:border-cyan-400"
+            aria-label="GitHub"
+          >
+            <Github className="w-5 h-5" />
+          </a>
+        </div>
+
           </div>
         </div>
 
