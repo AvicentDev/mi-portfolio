@@ -5,6 +5,21 @@ import { ExternalLink } from "lucide-react";
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "CV Generator",
+      subtitle: "Generador de CV con IA",
+      period: "Febrero 2026",
+      description: "Plataforma inteligente que genera y despliega currículums web optimizados automáticamente.",
+      technologies: ["React", "TailwindCSS", "Node.js", "AI Integration"],
+      color: "purple",
+      bullets: [
+        "Generación automática de CVs web interactivos.",
+        "Integración con IA para mejora de contenido.",
+        "Despliegue instantáneo en la nube."
+      ],
+      showLiveDemo: true,
+      demoUrl: "https://cv-generator-front.onrender.com/"
+    },
+    {
       title: "Gestor de Tiempos",
       subtitle: "API RESTful",
       period: "2025",
@@ -95,7 +110,7 @@ export default function ProjectsSection() {
                     className="w-full text-sm md:w-auto text-foreground border-border hover:bg-accent"
                     asChild
                   >
-                    <a 
+                    <a
                       href={project.demoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
