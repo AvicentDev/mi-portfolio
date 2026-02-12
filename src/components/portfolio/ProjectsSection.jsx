@@ -9,7 +9,7 @@ export default function ProjectsSection() {
       subtitle: "Generador de CV con IA",
       period: "Febrero 2026",
       description: "Plataforma inteligente que genera y despliega currículums web optimizados automáticamente.",
-      technologies: ["React", "TailwindCSS", "Node.js", "AI Integration"],
+      technologies: ["React", "TailwindCSS", "Laravel", "AI Integration"],
       color: "purple",
       bullets: [
         "Generación automática de CVs web interactivos.",
