@@ -4,7 +4,7 @@ export default function ExperienceSection() {
       title: "Desarrollador Backend en Prácticas",
       company: "Tainforma Consultoría Informática",
       location: "Alicante, España",
-      period: "Marzo 2025 – Junio 2025",
+      period: "Junio 2025 – Noviembre 2025",
       color: "cyan",
       bullets: [
         "Desarrollé una plataforma para la gestión de propiedades y apartamentos turísticos, para facilitar la automatización de las reservas que realizan los inquilinos.",

@@ -1,9 +1,24 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 
 export default function ProjectsSection() {
   const projects = [
+    {
+      title: "HireMatch AI",
+      subtitle: "Analizador de ofertas de trabajo con IA",
+      period: "Abril 2026",
+      description: "Aplicación que scrapa ofertas de LinkedIn, las analiza con Gemini AI y genera un score de compatibilidad comparándolas con tu perfil profesional.",
+      technologies: ["Laravel 12", "Vue.js 3", "Inertia.js", "Python", "Playwright", "Redis", "Docker", "Gemini AI"],
+      color: "purple",
+      bullets: [
+        "Arquitectura DDD con separación en capas Domain, Application e Infra.",
+        "Scraping asíncrono con FastAPI + Playwright en microservicio Python independiente.",
+        "Cola de tareas con Laravel Jobs + Redis para procesamiento en background sin bloquear al usuario."
+      ],
+      showLiveDemo: false,
+      githubUrl: "https://github.com/AvicentDev/HireMatch-AI"
+    },
     {
       title: "CV Generator",
       subtitle: "Generador de CV con IA",
@@ -102,25 +117,34 @@ export default function ProjectsSection() {
                 ))}
               </div>
 
-              {project.showLiveDemo && project.demoUrl && (
-                <div className="flex gap-3">
+              <div className="flex gap-3">
+                {project.showLiveDemo && project.demoUrl && (
                   <Button
                     variant="outline"
                     size="sm"
                     className="w-full text-sm md:w-auto text-foreground border-border hover:bg-accent"
                     asChild
                   >
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="w-4 h-4 mr-2" />
                       Live Demo
                     </a>
                   </Button>
-                </div>
-              )}
+                )}
+                {project.githubUrl && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="w-full text-sm md:w-auto text-foreground border-border hover:bg-accent"
+                    asChild
+                  >
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <Github className="w-4 h-4 mr-2" />
+                      Ver código
+                    </a>
+                  </Button>
+                )}
+              </div>
             </div>
           ))}
         </div>

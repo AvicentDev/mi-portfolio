@@ -20,7 +20,10 @@ export default function SkillsSection() {
       skills: [
         { name: "ASP.NET Core", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" },
         { name: "Laravel", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" },
-        { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" }
+        { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+        { name: "Vue.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
+        { name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
+        { name: "Inertia.js", icon: "https://avatars.githubusercontent.com/u/47703742?s=200&v=4" }
       ]
     },
     {
@@ -29,7 +32,8 @@ export default function SkillsSection() {
       color: "green",
       skills: [
         { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-        { name: "SQL Server", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" }
+        { name: "SQL Server", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
+        { name: "Redis", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" }
       ]
     },
     {
@@ -39,7 +43,8 @@ export default function SkillsSection() {
       skills: [
         { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
         { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
-        { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" }
+        { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" }
       ]
     }
   ];
@@ -120,6 +125,12 @@ export default function SkillsSection() {
             </div>
             <div className="px-3 py-2 text-xs border rounded-lg md:text-sm md:px-4 bg-purple-500/10 border-purple-500/30">
               <span className="text-purple-300">REST APIs</span>
+            </div>
+            <div className="px-3 py-2 text-xs border rounded-lg md:text-sm md:px-4 bg-purple-500/10 border-purple-500/30">
+              <span className="text-purple-300">Domain-Driven Design (DDD)</span>
+            </div>
+            <div className="px-3 py-2 text-xs border rounded-lg md:text-sm md:px-4 bg-purple-500/10 border-purple-500/30">
+              <span className="text-purple-300">Arquitectura Hexagonal</span>
             </div>
           </div>
         </div>
